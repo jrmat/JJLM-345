@@ -1,3 +1,5 @@
+[![codecov](https://codecov.io/gh/jrmat/JJLM-345/branch/main/graph/badge.svg?token=DM5KBQ14CM)](https://codecov.io/gh/jrmat/JJLM-345)
+
 # Na Zdrowie
 
 This is the Alpha for our drinking app called Na Zdrowie. The app allows users to play through different drinking games with their mates.
