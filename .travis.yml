@@ -2,6 +2,6 @@ language:
   - swift
 osx_image: xcode12.5
 script:
-  - xcodebuild -scheme "Na zdrowie" -sdk iphonesimulator -destination 'platform=iOS Simulator,name=iPhone 11,OS=14.5' build test
+  - xcodebuild -scheme "Na zdrowie" -sdk iphonesimulator -destination 'platform=iOS Simulator,name=iPhone 11,OS=14.5' -enableCodeCoverage YES build test
 after_success:
   - bash <(curl -s https://codecov.io/bash) -t e03f3c34-fe9e-470b-b5fe-413be3da2a5f
