@@ -1,20 +1,18 @@
-name: Codecov Demo
+
+name: Swift
 
 on:
   push:
-    branches:
-main
+    branches: [ main ]
   pull_request:
-    branches:
-main
+    branches: [ main ]
 
 jobs:
   build:
-    runs-on: macOS-latest
+
+    runs-on: macos-latest
+
     steps:
-      - name: Test
-        uses: actions/checkout@v1
-      - name: Build and Test
-        run:  xcodebuild test -project CodecovDemo.xcodeproj -scheme CodecovDemo -destination 'platform=iOS Simulator,name=iPhone 11,OS=14.3' -enable CodeCoverage YES build test
-      - name: Upload coverage to Codecov
-        uses: codecov/codecov-action@v1.2.1
+    - uses: actions/checkout@v2
+    - name: Codecov
+      run: bash <(curl -s https://codecov.io/bash
