@@ -1,0 +1,12 @@
+{
+  "warnings": [
+    {
+      "file": "/Users/Jada 1/Desktop/Na zdrowie/Na zdrowie/RulesList.swift",
+      "line": 14,
+      "symbol": "RulesList.presentationMode",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    }
+  ],
+  "source_directory": "/Users/Jada 1/Desktop/Na zdrowie"
+}
