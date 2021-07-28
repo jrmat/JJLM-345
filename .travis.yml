@@ -1,1 +1,3 @@
-language: swift
+language: objective-c
+xcode_project: Na zdrowie.xcodeproj # path to your xcodeproj folder
+xcode_destination: platform=iOS Simulator,OS=11.3,name=iPhone 11
