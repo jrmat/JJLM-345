@@ -80,7 +80,11 @@ struct GameView: View{
 /// Shows preview of GameView.
 struct GameView_Previews: PreviewProvider {
     static var previews: some View {
-        GameView(deck: Card.taskDeck, inRules: true)
-            .previewDevice("iPhone 11")
+        Group {
+            GameView(deck: Card.taskDeck, inRules: true)
+                .previewDevice("iPhone 11")
+            GameView(deck: Card.taskDeck, inRules: true)
+                .previewDevice("iPhone 11")
+        }
     }
 }
