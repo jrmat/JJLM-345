@@ -1,4 +1,4 @@
-[![codecov](https://codecov.io/gh/jrmat/JJLM-345/branch/main/graph/badge.svg?token=DM5KBQ14CM)](https://codecov.io/gh/jrmat/JJLM-345)
+[![Build Status](https://www.travis-ci.com/jrmat/JJLM-345.svg?branch=main)](https://www.travis-ci.com/jrmat/JJLM-345) [![codecov](https://codecov.io/gh/jrmat/JJLM-345/branch/main/graph/badge.svg?token=DM5KBQ14CM)](https://codecov.io/gh/jrmat/JJLM-345)
 
 # Na Zdrowie
 
