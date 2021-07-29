@@ -43,20 +43,6 @@ struct GameSelect : View {
                 }
                 .padding(20)
                 Spacer()
-                NavigationLink(destination: GameView(deck : Card.standard, inRules: false)) {
-                    VStack(alignment: .leading){
-                    Text("Standard Deck")
-                        .font(.title)
-                        
-                        Spacer(minLength : 20.0)
-                        
-                    Text("Standard deck of 52 cards shuffled")
-                        .foregroundColor(.gray)
-                        .font(.title2)
-                    }
-                }
-                .padding(20)
-                Spacer()
                 NavigationLink(destination: GameView(deck : Card.MLT, inRules: false)) {
                     VStack(alignment: .leading){
                     Text("Most Likely To")
@@ -65,6 +51,20 @@ struct GameSelect : View {
                         Spacer(minLength : 20.0)
                         
                     Text("'Most likely to' prompts")
+                        .foregroundColor(.gray)
+                        .font(.title2)
+                    }
+                }
+                .padding(20)
+                Spacer()
+                NavigationLink(destination: GameView(deck : Card.standard, inRules: false)) {
+                    VStack(alignment: .leading){
+                    Text("Standard Deck")
+                        .font(.title)
+                        
+                        Spacer(minLength : 20.0)
+                        
+                    Text("Standard deck of 52 cards shuffled")
                         .foregroundColor(.gray)
                         .font(.title2)
                     }
