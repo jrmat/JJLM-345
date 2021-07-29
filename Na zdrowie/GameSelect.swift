@@ -56,6 +56,20 @@ struct GameSelect : View {
                     }
                 }
                 .padding(20)
+                Spacer()
+                NavigationLink(destination: GameView(deck : Card.MLT, inRules: false)) {
+                    VStack(alignment: .leading){
+                    Text("Most Likely To")
+                        .font(.title)
+                        
+                        Spacer(minLength : 20.0)
+                        
+                    Text("'Most likely to' prompts")
+                        .foregroundColor(.gray)
+                        .font(.title2)
+                    }
+                }
+                .padding(20)
             }
             .navigationBarTitle("Decks", displayMode: .inline)
         }
