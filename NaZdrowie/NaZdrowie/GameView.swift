@@ -21,12 +21,11 @@ extension View {
     }
 }
  /// Displays view of selected game.
-struct GameView: View{
+struct GameView: View {
     @State private var deck : [Card] // deck to be used
     @State private var showingRules = false // set to true if 'Rules' button tapped
     private var temp : [Card] // copy of deck to be used
     private var rules : Bool // set to true if taskDeck being used
-    
     
     /// Initialises a new deck of Card objects with given inputs.
     /// - Parameters:
@@ -41,24 +40,24 @@ struct GameView: View{
     var body: some View {
         ZStack {
             ForEach(0..<deck.count, id: \.self) {
-                        index in
-                        CardView(card: self.deck[index]) {
-                            withAnimation {
-                                if (index >= 0 && index < self.deck.count) {
-                                    self.removeCard(at: index) // removes card when tapped
-                                }
-                            }
+                index in
+                CardView(card: self.deck[index]) {
+                    withAnimation {
+                        if (index >= 0 && index < self.deck.count) {
+                            self.removeCard(at: index) // removes card when tapped
                         }
-                        .stacked(at: index, in: self.deck.count) // stacks cards
-                    }
-                    if(self.deck.isEmpty){
-                        Button("re-shuffle"){
-                            self.deck.append(contentsOf: temp)
-                            self.deck.shuffle()
                     }
                 }
-                if(self.rules == true){ // shows rules button if rules set to true
-                Button("Rules"){
+                .stacked(at: index, in: self.deck.count) // stacks cards
+            }
+            if(self.deck.isEmpty) {
+                Button("re-shuffle") {
+                    self.deck.append(contentsOf: temp)
+                    self.deck.shuffle()
+                }
+            }
+            if(self.rules == true) { // shows rules button if rules set to true
+                Button("Rules") {
                     self.showingRules.toggle()
                 }
                 .position(x: 350 , y: 20)

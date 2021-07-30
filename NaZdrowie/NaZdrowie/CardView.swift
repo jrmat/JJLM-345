@@ -15,17 +15,16 @@ struct CardView: View {
     /// Used to set card in deck to nil,  allowing removal.
     var removal: (() -> Void)? = nil
     
-    
     var body: some View {
         ZStack {
             RoundedRectangle(cornerRadius: 25, style: .continuous)
-                .fill(Color.white)
-                .shadow(radius: 10)
+            .fill(Color.white)
+            .shadow(radius: 10)
             
             VStack {
                 Text(card.prompt) // show card prompt
-                    .font(.largeTitle)
-                    .foregroundColor(.black)
+                .font(.largeTitle)
+                .foregroundColor(.black)
             }
             .padding(20)
             .multilineTextAlignment(.center)

@@ -17,16 +17,16 @@ struct RulesView: View {
     /// Displays selected rule.
     var body: some View {
         VStack {
-                Text(rules.name) // show name of rule
-                    .font(.largeTitle)
-                    .bold()
-                Divider()
-                Text(rules.rule) // show rule's description
-                    .font(.title2)
-            }
-            .padding(20)
+            Text(rules.name) // show name of rule
+            .font(.largeTitle)
+            .bold()
+            Divider()
+            Text(rules.rule) // show rule's description
+            .font(.title2)
         }
-}
+        .padding(20)
+    }
+}ß
 
 /// Shows preview of RulesView.
 struct RulesView_Previews: PreviewProvider {

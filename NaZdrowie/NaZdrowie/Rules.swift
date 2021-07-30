@@ -33,5 +33,4 @@ struct Rules {
     static var tG : Rules {
         Rules(name: "Take, Give", rule: "Player drinks how many times the card says to 'take', and gives out the amount of sips the card says to 'give'. The given sips may be distributed among other players i.e. 'give 3' player X gives 1 sip to player Y, and 2 sips to player Z.")
     }
-
 }
