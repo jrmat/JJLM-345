@@ -7,7 +7,7 @@ This is the Alpha for our drinking app called Na Zdrowie. The app allows users t
 Download the Na Zdrowie folder. To access the project use X code to open the project and run it on the simulated iPhone 11. Select which card deck to use then tap on a card to remove it from the deck.
 
 ## Source Code Documentation:
-https://jrmat.github.io/JJLM-345/
+https://jrmat.github.io/JJLM-345/index.html
 
 ## Group Members:
 Jada Mataroa 9474013
