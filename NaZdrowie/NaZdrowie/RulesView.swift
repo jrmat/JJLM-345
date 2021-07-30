@@ -26,7 +26,7 @@ struct RulesView: View {
         }
         .padding(20)
     }
-}ß
+}
 
 /// Shows preview of RulesView.
 struct RulesView_Previews: PreviewProvider {

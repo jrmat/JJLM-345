@@ -31,4 +31,4 @@ struct Card {
     static var standard : [Card] {
         [Card(prompt: "A♠️"), Card(prompt: "2♠️"), Card(prompt: "3♠️"), Card(prompt: "4♠️"), Card(prompt: "5♠️"), Card(prompt: "6♠️"), Card(prompt: "7♠️"), Card(prompt: "8♠️"), Card(prompt: "9♠️"), Card(prompt: "10♠️"), Card(prompt: "J♠️"), Card(prompt: "Q♠️"), Card(prompt: "K♠️"), Card(prompt: "A♦️"), Card(prompt: "2♦️"), Card(prompt: "3♦️"), Card(prompt: "4♦️"), Card(prompt: "5♦️"), Card(prompt: "6♦️"), Card(prompt: "7♦️"), Card(prompt: "8♦️"), Card(prompt: "9♦️"), Card(prompt: "10♦️"), Card(prompt: "J♦️"), Card(prompt: "Q♦️"), Card(prompt: "K♦️"), Card(prompt: "A♥️"), Card(prompt: "2♥️"), Card(prompt: "3♥️"), Card(prompt: "4♥️"), Card(prompt: "5♥️"), Card(prompt: "6♥️"), Card(prompt: "7♥️"), Card(prompt: "8♥️"), Card(prompt: "9♥️"), Card(prompt: "10♥️"), Card(prompt: "J♥️"), Card(prompt: "Q♥️"), Card(prompt: "K♥️"), Card(prompt: "A♣️"), Card(prompt: "2♣️"), Card(prompt: "3♣️"), Card(prompt: "4♣️"), Card(prompt: "5♣️"), Card(prompt: "6♣️"), Card(prompt: "7♣️"), Card(prompt: "8♣️"), Card(prompt: "9♣️"), Card(prompt: "10♣️"), Card(prompt: "J♣️"), Card(prompt: "Q♣️"), Card(prompt: "K♣️")]
     }
-}ß
+}

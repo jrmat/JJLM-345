@@ -71,7 +71,7 @@ struct GameSelect : View {
                 .padding(20)
             }
             .navigationBarTitle("Decks", displayMode: .inline)
-        }ß
+        }
     }
 }
 
