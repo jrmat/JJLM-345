@@ -20,6 +20,8 @@
 		05E58CC5266702880050A8C8 /* Rules.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05E58CC4266702880050A8C8 /* Rules.swift */; };
 		05E58CC7266702EB0050A8C8 /* RulesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05E58CC6266702EB0050A8C8 /* RulesView.swift */; };
 		05E58CC926670B0A0050A8C8 /* RulesList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05E58CC826670B0A0050A8C8 /* RulesList.swift */; };
+		2E485A9226BC9E3F00D4CE0B /* InputNames.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E485A9126BC9E3F00D4CE0B /* InputNames.storyboard */; };
+		2E485A9426BCA78C00D4CE0B /* InputNamesController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E485A9326BCA78C00D4CE0B /* InputNamesController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +61,8 @@
 		05E58CC4266702880050A8C8 /* Rules.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rules.swift; sourceTree = "<group>"; };
 		05E58CC6266702EB0050A8C8 /* RulesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RulesView.swift; sourceTree = "<group>"; };
 		05E58CC826670B0A0050A8C8 /* RulesList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RulesList.swift; sourceTree = "<group>"; };
+		2E485A9126BC9E3F00D4CE0B /* InputNames.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = InputNames.storyboard; sourceTree = "<group>"; };
+		2E485A9326BCA78C00D4CE0B /* InputNamesController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputNamesController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +119,8 @@
 				05E58CC4266702880050A8C8 /* Rules.swift */,
 				051FF21526AA23F600CFB6DF /* ContentView.swift */,
 				05E58CC6266702EB0050A8C8 /* RulesView.swift */,
+				2E485A9126BC9E3F00D4CE0B /* InputNames.storyboard */,
+				2E485A9326BCA78C00D4CE0B /* InputNamesController.swift */,
 				05E58CC826670B0A0050A8C8 /* RulesList.swift */,
 				059D0D3F2661C79200161C54 /* GameSelect.swift */,
 				05DA3814265F3E560018EED8 /* CardView.swift */,
@@ -254,6 +260,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2E485A9226BC9E3F00D4CE0B /* InputNames.storyboard in Resources */,
 				05012139265F37FD00B3B8F8 /* Preview Assets.xcassets in Resources */,
 				05012136265F37FD00B3B8F8 /* Assets.xcassets in Resources */,
 			);
@@ -283,6 +290,7 @@
 				05E58CC7266702EB0050A8C8 /* RulesView.swift in Sources */,
 				05012134265F37FC00B3B8F8 /* GameView.swift in Sources */,
 				05DA3813265F3E380018EED8 /* Card.swift in Sources */,
+				2E485A9426BCA78C00D4CE0B /* InputNamesController.swift in Sources */,
 				05DA3815265F3E560018EED8 /* CardView.swift in Sources */,
 				05012132265F37FC00B3B8F8 /* NaZdrowieApp.swift in Sources */,
 				051FF21626AA23F600CFB6DF /* ContentView.swift in Sources */,
