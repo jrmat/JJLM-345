@@ -16,12 +16,13 @@ struct GameSelect : View {
             List {
                 NavigationLink(destination: GameView(deck : Card.taskDeck, inRules: true)) {
                     VStack(alignment: .leading){
-                        Text("Task Cards")
+                    Text("Task Cards")
                         .font(.title)
-                            
+                        
+                        
                         Spacer(minLength : 20.0)
-                            
-                        Text("Different drinking tasks on each card")
+                        
+                    Text("Different drinking tasks on each card")
                         .foregroundColor(.gray)
                         .font(.title2)
                     }
@@ -29,13 +30,13 @@ struct GameSelect : View {
                 .padding(20)
                 Spacer()
                 NavigationLink(destination: GameView(deck : Card.NHIE, inRules: false)) {
-                    VStack(alignment: .leading) {
-                        Text("Never Have I Ever")
+                    VStack(alignment: .leading){
+                    Text("Never Have I Ever")
                         .font(.title)
                         
                         Spacer(minLength : 20.0)
                         
-                        Text("Never have I ever questions")
+                    Text("Never have I ever questions")
                         .foregroundColor(.gray)
                         .font(.title2)
                     }
@@ -44,12 +45,12 @@ struct GameSelect : View {
                 Spacer()
                 NavigationLink(destination: GameView(deck : Card.MLT, inRules: false)) {
                     VStack(alignment: .leading){
-                        Text("Most Likely To")
+                    Text("Most Likely To")
                         .font(.title)
                         
                         Spacer(minLength : 20.0)
                         
-                        Text("'Most likely to' prompts")
+                    Text("'Most likely to' prompts")
                         .foregroundColor(.gray)
                         .font(.title2)
                     }
@@ -58,12 +59,26 @@ struct GameSelect : View {
                 Spacer()
                 NavigationLink(destination: GameView(deck : Card.standard, inRules: false)) {
                     VStack(alignment: .leading){
-                        Text("Standard Deck")
+                    Text("Standard Deck")
                         .font(.title)
                         
                         Spacer(minLength : 20.0)
                         
-                        Text("Standard deck of 52 cards shuffled")
+                    Text("Standard deck of 52 cards shuffled")
+                        .foregroundColor(.gray)
+                        .font(.title2)
+                    }
+                }
+                .padding(20)
+               Spacer()
+                NavigationLink(destination: CustomGameView()) {
+                    VStack(alignment: .leading){
+                    Text("Custom Deck")
+                        .font(.title)
+                        
+                        Spacer(minLength : 20.0)
+                        
+                    Text("Saved deck of user custom cards")
                         .foregroundColor(.gray)
                         .font(.title2)
                     }
