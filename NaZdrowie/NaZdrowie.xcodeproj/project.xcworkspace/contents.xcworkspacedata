@@ -2,6 +2,18 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:/Users/Jada 1/Desktop/NaZdrowie/NaZdrowie.xcodeproj">
+      location = "group:/Users/jakubsawicki/Desktop/GitHub/JJLM-345/NaZdrowie/NaZdrowie/Assets.xcassets">
+   </FileRef>
+   <FileRef
+      location = "group:../../../../Main App Storyboard.storyboard">
+   </FileRef>
+   <FileRef
+      location = "group:../../../../Assets.xcassets">
+   </FileRef>
+   <FileRef
+      location = "group:/Users/jakubsawicki/Desktop/GitHub/JJLM-345/NaZdrowie/NaZdrowie/Main App Storyboard.storyboard">
+   </FileRef>
+   <FileRef
+      location = "self:">
    </FileRef>
 </Workspace>

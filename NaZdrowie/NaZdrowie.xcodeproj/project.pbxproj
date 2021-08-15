@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		05012132265F37FC00B3B8F8 /* NaZdrowieApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05012131265F37FC00B3B8F8 /* NaZdrowieApp.swift */; };
 		05012134265F37FC00B3B8F8 /* GameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05012133265F37FC00B3B8F8 /* GameView.swift */; };
-		05012136265F37FD00B3B8F8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 05012135265F37FD00B3B8F8 /* Assets.xcassets */; };
 		05012139265F37FD00B3B8F8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 05012138265F37FD00B3B8F8 /* Preview Assets.xcassets */; };
 		05012144265F37FE00B3B8F8 /* NaZdrowieTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05012143265F37FE00B3B8F8 /* NaZdrowieTests.swift */; };
 		0501214F265F37FE00B3B8F8 /* NaZdrowieUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0501214E265F37FE00B3B8F8 /* NaZdrowieUITests.swift */; };
@@ -45,7 +44,6 @@
 		0501212E265F37FC00B3B8F8 /* NaZdrowie.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NaZdrowie.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		05012131265F37FC00B3B8F8 /* NaZdrowieApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NaZdrowieApp.swift; sourceTree = "<group>"; };
 		05012133265F37FC00B3B8F8 /* GameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameView.swift; sourceTree = "<group>"; };
-		05012135265F37FD00B3B8F8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		05012138265F37FD00B3B8F8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		0501213A265F37FD00B3B8F8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0501213F265F37FE00B3B8F8 /* NaZdrowieTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NaZdrowieTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -63,6 +61,8 @@
 		05E58CC826670B0A0050A8C8 /* RulesList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RulesList.swift; sourceTree = "<group>"; };
 		2E485A9126BC9E3F00D4CE0B /* InputNames.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = InputNames.storyboard; sourceTree = "<group>"; };
 		2E485A9326BCA78C00D4CE0B /* InputNamesController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputNamesController.swift; sourceTree = "<group>"; };
+		CB55412F26C8D298001BD62F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = "/Users/jakubsawicki/Desktop/GitHub/JJLM-345/NaZdrowie/NaZdrowie/Assets.xcassets"; sourceTree = "<absolute>"; };
+		CB55413026C8D29B001BD62F /* Main App Storyboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = "Main App Storyboard.storyboard"; path = "/Users/jakubsawicki/Desktop/GitHub/JJLM-345/NaZdrowie/NaZdrowie/Main App Storyboard.storyboard"; sourceTree = "<absolute>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,15 +116,16 @@
 				05012131265F37FC00B3B8F8 /* NaZdrowieApp.swift */,
 				05012133265F37FC00B3B8F8 /* GameView.swift */,
 				05DA3812265F3E380018EED8 /* Card.swift */,
+				CB55412F26C8D298001BD62F /* Assets.xcassets */,
 				05E58CC4266702880050A8C8 /* Rules.swift */,
 				051FF21526AA23F600CFB6DF /* ContentView.swift */,
 				05E58CC6266702EB0050A8C8 /* RulesView.swift */,
+				CB55413026C8D29B001BD62F /* Main App Storyboard.storyboard */,
 				2E485A9126BC9E3F00D4CE0B /* InputNames.storyboard */,
 				2E485A9326BCA78C00D4CE0B /* InputNamesController.swift */,
 				05E58CC826670B0A0050A8C8 /* RulesList.swift */,
 				059D0D3F2661C79200161C54 /* GameSelect.swift */,
 				05DA3814265F3E560018EED8 /* CardView.swift */,
-				05012135265F37FD00B3B8F8 /* Assets.xcassets */,
 				0501213A265F37FD00B3B8F8 /* Info.plist */,
 				05012137265F37FD00B3B8F8 /* Preview Content */,
 			);
@@ -262,7 +263,6 @@
 			files = (
 				2E485A9226BC9E3F00D4CE0B /* InputNames.storyboard in Resources */,
 				05012139265F37FD00B3B8F8 /* Preview Assets.xcassets in Resources */,
-				05012136265F37FD00B3B8F8 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
