@@ -21,6 +21,8 @@
 		05E58CC926670B0A0050A8C8 /* RulesList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05E58CC826670B0A0050A8C8 /* RulesList.swift */; };
 		2E485A9226BC9E3F00D4CE0B /* InputNames.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E485A9126BC9E3F00D4CE0B /* InputNames.storyboard */; };
 		2E485A9426BCA78C00D4CE0B /* InputNamesController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E485A9326BCA78C00D4CE0B /* InputNamesController.swift */; };
+		CB55413226C90193001BD62F /* CustomGameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB55413126C90193001BD62F /* CustomGameView.swift */; };
+		CB55413426C901DD001BD62F /* EditCustom.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB55413326C901DD001BD62F /* EditCustom.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +65,8 @@
 		2E485A9326BCA78C00D4CE0B /* InputNamesController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputNamesController.swift; sourceTree = "<group>"; };
 		CB55412F26C8D298001BD62F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = "/Users/jakubsawicki/Desktop/GitHub/JJLM-345/NaZdrowie/NaZdrowie/Assets.xcassets"; sourceTree = "<absolute>"; };
 		CB55413026C8D29B001BD62F /* Main App Storyboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = "Main App Storyboard.storyboard"; path = "/Users/jakubsawicki/Desktop/GitHub/JJLM-345/NaZdrowie/NaZdrowie/Main App Storyboard.storyboard"; sourceTree = "<absolute>"; };
+		CB55413126C90193001BD62F /* CustomGameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = CustomGameView.swift; path = "/Users/jakubsawicki/Desktop/GitHub/JJLM-345/NaZdrowie/NaZdrowie/CustomGameView.swift"; sourceTree = "<absolute>"; };
+		CB55413326C901DD001BD62F /* EditCustom.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = EditCustom.swift; path = "/Users/jakubsawicki/Desktop/GitHub/JJLM-345/NaZdrowie/NaZdrowie/EditCustom.swift"; sourceTree = "<absolute>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,7 +120,9 @@
 				05012131265F37FC00B3B8F8 /* NaZdrowieApp.swift */,
 				05012133265F37FC00B3B8F8 /* GameView.swift */,
 				05DA3812265F3E380018EED8 /* Card.swift */,
+				CB55413126C90193001BD62F /* CustomGameView.swift */,
 				CB55412F26C8D298001BD62F /* Assets.xcassets */,
+				CB55413326C901DD001BD62F /* EditCustom.swift */,
 				05E58CC4266702880050A8C8 /* Rules.swift */,
 				051FF21526AA23F600CFB6DF /* ContentView.swift */,
 				05E58CC6266702EB0050A8C8 /* RulesView.swift */,
@@ -287,9 +293,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CB55413426C901DD001BD62F /* EditCustom.swift in Sources */,
 				05E58CC7266702EB0050A8C8 /* RulesView.swift in Sources */,
 				05012134265F37FC00B3B8F8 /* GameView.swift in Sources */,
 				05DA3813265F3E380018EED8 /* Card.swift in Sources */,
+				CB55413226C90193001BD62F /* CustomGameView.swift in Sources */,
 				2E485A9426BCA78C00D4CE0B /* InputNamesController.swift in Sources */,
 				05DA3815265F3E560018EED8 /* CardView.swift in Sources */,
 				05012132265F37FC00B3B8F8 /* NaZdrowieApp.swift in Sources */,

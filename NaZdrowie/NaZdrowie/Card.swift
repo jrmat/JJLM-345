@@ -8,7 +8,7 @@
 import Foundation
 
 /// Structure for Card objects.
-struct Card {
+struct Card: Decodable, Encodable {
     /// Description on card.
     let prompt: String
     

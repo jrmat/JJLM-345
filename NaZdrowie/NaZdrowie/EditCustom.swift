@@ -6,6 +6,12 @@
 //
 import SwiftUI
 
+protocol Card1Protocol: Codable {
+         func saveData()
+         func  loadData()
+    }
+
+
 /// Structure for editing view for custom cards.
 struct EditCustom: View {
     @Environment(\.presentationMode) var presentationMode
@@ -84,3 +90,5 @@ struct EditCustom_Previews: PreviewProvider {
             .previewDevice("iPhone 11")
     }
 }
+
+
