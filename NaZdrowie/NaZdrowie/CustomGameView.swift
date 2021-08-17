@@ -4,7 +4,6 @@
 //
 //  Displays view of user's custom cards.
 //
-
 import SwiftUI
 
 /// Displays view of custom cards.
