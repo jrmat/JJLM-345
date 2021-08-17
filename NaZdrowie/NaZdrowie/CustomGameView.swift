@@ -7,7 +7,7 @@
 import SwiftUI
 
 /// Displays view of custom cards.
-struct CustomGameView : View { 
+struct CustomGameView : View {
     @State private var showingEditScreen = false
     @State private var deck = [Card]() // deck to be used
     
