@@ -6,7 +6,7 @@
 //
 import SwiftUI
 
-protocol Card1Protocol: Codable {
+protocol Card1Protocol: Codable {   
          func saveData()
          func  loadData()
     }
