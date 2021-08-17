@@ -8,7 +8,7 @@
 import SwiftUI
 
 /// Extension of view used for animation of card removal.
-extension View {
+extension View { 
     
     /// Creates stack effect of cards by offsetting each by 10 more than the card prior, starting from 0.
     /// - Parameters:
