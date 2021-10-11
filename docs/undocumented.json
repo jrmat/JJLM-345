@@ -163,35 +163,35 @@
     },
     {
       "file": "/Users/Jada 1/Desktop/NZ/NZ/InputNameViewController.swift",
-      "line": 39,
+      "line": 45,
       "symbol": "InputNameViewController.addName(_:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/Jada 1/Desktop/NZ/NZ/InputNameViewController.swift",
-      "line": 57,
+      "line": 63,
       "symbol": "InputNameViewController.removeName(_:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/Jada 1/Desktop/NZ/NZ/InputNameViewController.swift",
-      "line": 69,
+      "line": 75,
       "symbol": "InputNameViewController.storeNames(_:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/Jada 1/Desktop/NZ/NZ/InputNameViewController.swift",
-      "line": 82,
+      "line": 88,
       "symbol": "InputNameViewController",
       "symbol_kind": "source.lang.swift.decl.extension",
       "warning": "undocumented"
     },
     {
       "file": "/Users/Jada 1/Desktop/NZ/NZ/InputNameViewController.swift",
-      "line": 83,
+      "line": 89,
       "symbol": "InputNameViewController.textFieldShouldReturn(_:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
