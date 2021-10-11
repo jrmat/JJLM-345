@@ -2,7 +2,7 @@
 
 # Na Zdrowie
 
-This is the Beta for our drinking app called Na Zdrowie. The app allows users to play through different drinking games with their mates.
+This is the final release for our drinking game app called Na Zdrowie. The app allows users to play through different drinking games with their mates.
 
 ## How to Run:
 Download the NZ folder. To access the project use X code to open the project and run it on the simulated iPhone 11. Tap play and either add names or play without names then tap a game button to play.
