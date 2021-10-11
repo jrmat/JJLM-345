@@ -8,7 +8,7 @@ This is the Beta for our drinking app called Na Zdrowie. The app allows users to
 Download the NZ folder. To access the project use X code to open the project and run it on the simulated iPhone 11. Tap play and either add names or play without names then tap a game button to play.
 
 ## Source Code Documentation:
-https://jrmat.github.io/JJLM-345/index.html
+https://jrmat.github.io/JJLM-345/
 
 ## Group Members:
 Jada Mataroa 9474013
