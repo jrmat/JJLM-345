@@ -1,0 +1,21 @@
+name: Swift Tests
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  build:
+
+    runs-on: macos-latest
+    env:
+      CODACY_PROJECT_TOKEN: ${{ secrets.ACCESS_TOKEN }}
+    steps:
+    - uses: actions/checkout@v2
+    
+    - name: Run tests
+      run: xcodebuild test -scheme COSC345-ProjectTests -destination 'platform=iOS Simulator,OS=14.4,name=iPhone 11 Pro' -enableCodeCoverage YES;
+      
+    - name: Upload coverage to Codecov
+      run: bash <(curl https://codecov.io/bash)
