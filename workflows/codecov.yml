@@ -1,4 +1,4 @@
-name: codecov
+name: codecov CI
 
 on: [push, pull_request]
 
@@ -8,6 +8,7 @@ jobs:
     runs-on: macOS-latest
 
     strategy:
+      matrix:
         platform: iOS
         include:
           - platform: iOS
@@ -27,7 +28,8 @@ jobs:
         with:
           action: test
           project: NaZdrowie.xcodeproj
-          scheme: NaZrowie
+          scheme: NaZdrowie
+          sdk: ${{ matrix.sdk }}
           destination: platform=macOS
           enable-code-coverage: true
           
