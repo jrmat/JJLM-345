@@ -3,23 +3,35 @@ name: codecov
 on: [push, pull_request]
 
 jobs:
-  test:
-
-    name:: Test
+  xcode-tests:
+  name: "Tests"
     runs-on: macOS-latest
 
     strategy:
-          destination: 'platform=iOS Simulator,OS=12.2,name=iPhone 11'
+        platform: iOS
+        include:
+          - platform: iOS
+            sdk: iphonesimulator
+            destination: "name=iPhone 12"
+
 
     steps:
-    - name: Checkout repository
-      uses: actions/checkout@v2
+      - uses: actions/checkout@master
+      - name: setup swift
+        uses: actions/setup-swift@master
+        with:
+          swift-version: 5.5
+          
+     - name: Xcodebuild Action
+       uses: sersoft-gmbh/xcodebuild-action@v1
+        with:
+          action: test
+          project: NaZdrowie.xcodeproj
+          scheme: NaZrowie
+          destination: platform=macOS
+          enable-code-coverage: true
+          
       
-
-    - name: Build and test
-      run: |
-          cd NaZdrowie
-          xcodebuild clean test -project NaZrowie.xcodeproj -destination "${destination}" CODE_SIGN_IDENTITY="" CODE_SIGNING_REQUIRED=NO ONLY_ACTIVE_ARCH=NO
-          bash <(curl -s https://codecov.io/bash)
-        env: 
-         destination: ${{ matrix.destination }}
+    - name: upload codecov
+      uses: codecov/codecov-action@v2
+      
