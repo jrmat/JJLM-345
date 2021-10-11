@@ -54,7 +54,6 @@
         <!--Navigation Controller-->
         <scene sceneID="maZ-pN-clv">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="alq-Hj-xL6" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="Tpc-TI-A92" sceneMemberID="viewController">
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" largeTitles="YES" id="yse-Tg-8Qe">
@@ -76,6 +75,7 @@
                         <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="xJn-ej-UrI"/>
                     </connections>
                 </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="alq-Hj-xL6" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="18.840579710144929" y="76.339285714285708"/>
         </scene>
@@ -296,6 +296,9 @@
                         <color key="backgroundColor" red="0.525031209" green="0.028106655929999998" blue="0.048268049959999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
                     <navigationItem key="navigationItem" id="QRD-NX-wR5"/>
+                    <connections>
+                        <segue destination="KKv-0P-YSJ" kind="show" id="08R-vE-IWV"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Nnl-fH-iRz" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
