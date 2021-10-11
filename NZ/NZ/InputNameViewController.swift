@@ -33,6 +33,12 @@ class InputNameViewController: UIViewController {
                 return true
             }
         }
+        if identifier == "noNameSegue" {
+            nameList = []
+            let defaults = UserDefaults.standard
+            defaults.setValue(nameList, forKey: "savedNames")
+            return true
+        }
         return true
     }
     

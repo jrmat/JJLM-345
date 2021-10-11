@@ -11,7 +11,9 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        /**
+        ## commented out as was to be used for store which is incomplete ##
+         
         var timerCount = 0
         var playerZloties = 0
 
@@ -22,7 +24,7 @@ class ViewController: UIViewController {
             if timerCount == 100 {
                 timer.invalidate()
             }
-        }
+        }*/
     }
 
 

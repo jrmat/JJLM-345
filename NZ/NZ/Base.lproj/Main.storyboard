@@ -24,7 +24,7 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
-                                    <segue destination="Xos-xP-tIS" kind="show" id="KBI-9g-Yu2"/>
+                                    <segue destination="Xos-xP-tIS" kind="show" identifier="inputNameSegue" id="KBI-9g-Yu2"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="g6A-3r-cfd">
@@ -36,7 +36,7 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
-                                    <segue destination="xzg-2a-tUR" kind="show" id="m0j-kp-h6Z"/>
+                                    <segue destination="xzg-2a-tUR" kind="show" identifier="storeSegue" id="m0j-kp-h6Z"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -103,7 +103,7 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
-                                    <segue destination="aRT-0l-9BY" kind="show" id="ksf-t5-2Bv"/>
+                                    <segue destination="aRT-0l-9BY" kind="show" identifier="noNameSegue" id="ksf-t5-2Bv"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Be8-54-AwG">
@@ -297,7 +297,7 @@
                     </view>
                     <navigationItem key="navigationItem" id="QRD-NX-wR5"/>
                     <connections>
-                        <segue destination="KKv-0P-YSJ" kind="show" id="08R-vE-IWV"/>
+                        <segue destination="KKv-0P-YSJ" kind="show" identifier="hostSegue" id="08R-vE-IWV"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Nnl-fH-iRz" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
